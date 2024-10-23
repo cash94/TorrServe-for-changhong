@@ -52,7 +52,7 @@ import ru.yourok.torrserve.ui.fragments.main.update.server.UpdaterServer
 import ru.yourok.torrserve.utils.CImageSpan
 import ru.yourok.torrserve.utils.Format.dp2px
 import ru.yourok.torrserve.utils.Net
-import ru.yourok.torrserve.utils.Permission
+//import ru.yourok.torrserve.utils.Permission
 import ru.yourok.torrserve.utils.SpanFormat
 import ru.yourok.torrserve.utils.ThemeUtil
 import kotlin.system.exitProcess
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
         themeUtil.onCreate(this)
         setContentView(R.layout.main_activity)
 
-        Permission.requestPermissionWithRationale(this)
+        //Permission.requestPermissionWithRationale(this)
 
         onBackPressedDispatcher.addCallback(this, onBackPressedCallback)
 
